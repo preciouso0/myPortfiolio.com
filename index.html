@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/4504a7cccf.js" crossorigin="anonymous"></script>
+    <title>personal-portfolio website</title>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">porTFolio</div>
+                <ul id="sidemenu">
+                    <li><a href="#header">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+                <i class="fas fa-bars" id="open" onclick="openmenu()"></i>
+                <i class="fas fa-xmark" id="close" onclick="closemenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UX/UI Designer</p>
+                <h1>Hello,I'am <span> precious</span><br> A frontend Developer.</h1>
+            </div>
+        </div>
+    </div>
+<!-- /* about  -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./img/images/about bg.jpg" alt="me">
+                </div>
+                <div class="about-col-2">
+                    <H1 class="sub-title">About Me</H1>
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem tenetur iusto iste sint voluptas laboriosam nesciunt, repellat nostrum aliquid est fugiat, earum eius ex qui doloremque reprehenderit temporibus. Reprehenderit rerum perferendis ex sunt sed qui repudiandae cum ut vitae provident.</p> -->
+                    <p>Highly accomplished and user-focused frontend developer adapt in collaborating with UX/UI design teams to plan the technical writing and execution of functional specification for websites and application. Experienced in building multi-platform website using responsive web design. courteous and euthustic, i am interested in IT an everything in it's orbit</p>
+
+                    <!-- <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"  onclick="opentab('experience')" >Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    onclick="opentab('skills')"
+                    onclick="opentab('experience')"
+                    onclick="opentab('education')"
+
+
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>UX/UI</span><br>Designing web/App interfaces</li>
+                            <li><span>Web Development</span><br> Web App interfaces</li>
+                            <li><span>App Development</span><br>Building Android/ios Apps</li>
+                        </ul>
+
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2022 - current</span><br>UX /UI design training at ET institute</li>
+                            <li><span>2019 - 2022</span><br> Team lead at starapp llc.</li>
+                            <li><span>2018 - 2019</span><br>UX / UI design executive at coin digital ltd.</li>
+                            <li><span> 2017 - 2018</span><br>internship at ekart ecommerce.</li>
+                        </ul>
+
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2017</span><br>melodial coding academy</li>
+                            <li><span>2017</span><br> st.lucas coding school</li>
+                            <li><span>2016</span><br>self taught</li>
+                        </ul>
+
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--------------services-->
+    <div id="services">
+        <div class="container">
+            <H1 class="sub-title"> My Services</H1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>web design</h2>
+                    <p>i design website user interfaces and experience to make your visit to a website more interactive and fun</p>
+                    <a href="#">learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX design</h2>
+                    <p>i am a UX/UI designer that is one of the skill that i have that will keep you amazed while visitng any of my website</p>
+                    <a href="#">learn more</a>
+                </div>
+                   
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App design</h2>
+                    <p>i create and design mobile apps both for android and ios users,i am well skill in that field and i make sure to keep my clients happy.</p>
+                    <a href="#">learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>graphic design</h2>
+                    <p>are you looking for a skilled graphic designer? search no more because i am here to give you the best design you could imagine</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>          
+        </div>
+    </div>
+
+    <!-- portfoloio -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">my work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./img/images/7.1.jpg" alt="img">
+                <div class="layer">
+                    <h3>  portfolio website</h3>
+                    <p>This is another site about me that will keep you in wonders,it is also a site where you can get full info about me</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i>visit site</a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./img/images/7.5.jpg" alt="img">
+                <div class="layer">
+                    <h3> School website</h3>
+                    <p>This is a site where you can register into one of the great schools around you. </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i>visit site</a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./img/images/7.6.jpg" alt="img">
+                <div class="layer">
+                    <h3>business website</h3>
+                    <p>This is a site where you get to close deals with great impoter and exporter of forgein cloths</p>
+                    <a href="https://preciouso0.github.io/ucheco-group.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i>visit site</a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./img/images/7.2.jpg" alt="img">
+                <div class="layer">
+                    <h3>business website</h3>
+                    <p>This is a site where you get to close deals with great impoter and exporter of forgein cloths</p>
+                    <a href=" https://preciouso0.github.io/amazingCloths.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i>visit site</a>
+                </div>
+            </div>
+        </div>
+        <!-- <a href="#" class="btn">see more</a> -->
+    </div>
+    </div>
+<!-- .................................contact............ -->
+    <div id="contact">
+        <div class="container">
+        <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">contact me</h1>
+            <p><i class="fa-sharp fa-solid fa-paper-plane"></i> nwankwochiagozie25@gmail.com</p>
+            <p> <i class="fa-solid fa-phone-volume"></i> 08169055776</p>
+            <div class="social-icons">
+                <a href="https://web.facebook.com/?_rdc=1&_rdr"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/"><i class="fa-brands fa-square-twitter"></i></a>
+                <a href="https://www.instagram.com/explore/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></i></a>
+            </div>
+            <a href="./img/images/alison certificate.jpg" download class="btn btn2">download certificate</a>
+        </div>
+        <div class="contact-right">
+            <form action="">
+                <input type="text" name="Name" placeholder="your name" required>
+                <input type="email" name="Email" id="email" placeholder="email" required>
+                <textarea name="message" rows="6" placeholder="your message"></textarea>
+                <button type="submit" class="btn btn2">submit</button>
+            </form>
+                            <!-- <span id="msg">hello</span> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>Copyright &copy; 2023 by precious | All Right Reserved.</p>
+                </div>
+            </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
